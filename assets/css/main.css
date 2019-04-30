@@ -1,0 +1,57 @@
+body {
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+ color: #fff;
+ background: url(https://i.pinimg.com/originals/17/2b/0e/172b0eb9874db3c04104c9f5f0589a90.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.greeting {
+  margin: auto;
+  font-size: 200%;
+  font-family: 'Passion One', cursive;
+  letter-spacing: 5px;
+}
+span{
+  color: #00D;
+}
+button {
+  color: #000;
+  height: 70px;
+  font-weight: bold;
+  background: rgba(0, 0, 255, .8);
+  width: 300px;
+  font-size: 100%;
+  border: solid #FFF 3px;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 790px) {
+  .greeting {
+    font-size: 150%;
+  }
+  button {
+    height: 50px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 585px) {
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 100%; 
+    padding-bottom: 24%;
+  }
+  button {
+    height: 40px;
+    width: 200px;
+  }
+}
+}
