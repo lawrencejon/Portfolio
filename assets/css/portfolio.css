@@ -1,0 +1,21 @@
+body {
+  color: white;
+  font-family: 'Passion One', cursive;
+  background: url(https://i.pinimg.com/originals/17/2b/0e/172b0eb9874db3c04104c9f5f0589a90.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 200;
+  font-size: 400%;
+  margin-top: 10%;
+}
+.grid {
+  background: rgba(0, 0, 255, .3);
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+  border-top: #FFF solid 2px;
+}
