@@ -16,11 +16,15 @@ h1 {
   width: 50%;
 }
 .grid {
-  background: rgba(0, 0, 255, .3);
   padding: 2%;
   width: 80%;
   margin: 0 auto;
   border-top: #FFF solid 2px;
+}
+h3 {
+  text-align: center;
+  color: #00D;
+
 }
 .container {
   padding: 4% 2%;
