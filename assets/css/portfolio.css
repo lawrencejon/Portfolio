@@ -21,9 +21,15 @@ h1 {
   margin: 0 auto;
   border-top: #FFF solid 2px;
 }
+.thumbnail {
+  background: #00D;
+}
+.thumbnail:hover {
+  transform: scale(1.1);
+}
 h3 {
   text-align: center;
-  color: #00D;
+  color: #FFF;
 
 }
 .container {
