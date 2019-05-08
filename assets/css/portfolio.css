@@ -22,7 +22,7 @@ h1 {
   border-top: #FFF solid 2px;
 }
 .thumbnail {
-  background: #00D;
+  background: rgba(0,0,221, .3);
 }
 .thumbnail:hover {
   transform: scale(1.1);
