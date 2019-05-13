@@ -12,7 +12,7 @@ h1 {
   font-weight: 200;
   font-size: 400%;
   margin-top: 10%;
-  border-bottom: 1px solid #00D;
+  border-bottom: 1.5px solid #00D;
   width: 50%;
 }
 .grid {
@@ -23,6 +23,7 @@ h1 {
 }
 .thumbnail {
   background: rgba(0,0,221, .3);
+  border: 2px blue solid;
 }
 .thumbnail:hover {
   transform: scale(1.1);
