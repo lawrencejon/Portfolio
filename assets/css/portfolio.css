@@ -1,7 +1,7 @@
 body {
   color: white;
   font-family: 'Passion One', cursive;
-  background: url(https://i.pinimg.com/originals/17/2b/0e/172b0eb9874db3c04104c9f5f0589a90.jpg);
+  background: url(../img/backgroundImage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,6 +20,7 @@ h1 {
   width: 80%;
   margin: 0 auto;
   border-top: #FFF solid 2px;
+
 }
 .thumbnail {
   background: rgba(0,0,221, .3);
